@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/journeyContact/journeyContact",
+    "pages/addItem/addItem",
+    "pages/addJourney/addJourney",
+    "pages/logs/logs",
+    "pages/itemList/itemList",
+    "pages/itemList/itemContact/itemContact",
+    "pages/about/about",
+    "pages/about/myItem/myItem",
+    "pages/about/myItem/changeItem/changeItem",
+    "pages/about/myJourney/myJourney",
+    "pages/about/myJourney/changeJourney/changeJourney"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fcee21",
+    "navigationBarTitleText": "Movalue",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "position":"top",
+    "backgroundColor": "#fcee21",
+    "selectedColor": "#333333",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"行程列表"
+      },
+      {
+        "pagePath": "pages/itemList/itemList",
+        "text": "物件列表"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我的"
+      }
+    ]
+  }
+}

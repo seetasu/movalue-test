@@ -1,0 +1,61 @@
+<!--pages/journey list/journey list.wxml-->
+<scroll-view>
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Anne Lee</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>5kg</text>
+        <text class='details'>15*60*15mm</text>
+      </view>
+
+      <view id='list_info_3' class='list_info'>
+        <text class='description'>想带5支口红回国，可以在荷兰各个城市，或者杜塞尔多夫交易。</text>
+      </view>
+
+    </view>
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Anne Lee</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>5kg</text>
+        <text class='details'>15*60*15mm</text>
+      </view>
+
+      <view id='list_info_3' class='list_info'>
+        <text class='description'>想带5支口红回国，可以在荷兰各个城市，或者杜塞尔多夫交易。</text>
+      </view>
+
+    </view>
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Anne Lee</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>5kg</text>
+        <text class='details'>15*60*15mm</text>
+      </view>
+
+      <view id='list_info_3' class='list_info'>
+        <text class='description'>想带5支口红回国，可以在荷兰各个城市，或者杜塞尔多夫交易。</text>
+      </view>
+
+    </view>
+</scroll-view>
+
+<view class='add' bindtap='toAdd'>
+  <button class='add_button'>+</button>
+  <text>我要发布</text>
+</view>

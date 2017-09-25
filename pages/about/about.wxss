@@ -1,0 +1,51 @@
+/* pages/about/about.wxss */
+scroll-view{
+  width: 85%;
+  margin: 0 auto;
+}
+
+view{
+   width: 100%; 
+   text-align: center;
+   padding-top: 10%;
+}
+
+button{
+  background-color: #fcee21;
+  border: none;
+}
+
+.list_button{
+   width: 100%; 
+   font-size: 15px;
+   margin-bottom: 20px;
+}
+
+.add{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-image: url(http://sulezhi.com/addBtnBg.png);
+  background-size: auto 100%;
+  background-position-y: 0px;
+  padding: 10px 0;
+}
+
+.add text{
+  font-size: 10px;
+  display: block;
+}
+
+.add_button{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 20px;
+  border: none;
+  background-color: #fcee21;
+  margin: 10px auto;
+}
+

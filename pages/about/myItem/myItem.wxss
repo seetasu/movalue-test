@@ -1,0 +1,73 @@
+/* pages/about/myItem/myItem.wxss */
+.itemList{
+  width: 100%;
+  background-color: #fefde9;
+  padding: 10px 5%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.details{
+  width: 68%;
+  display: inline-block;
+  line-height: 20px;
+}
+
+switch{
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  right: 50px;
+  top: 13px;
+}
+
+.details #item{
+  font-size: 15px;
+}
+
+.details #journey{
+  font-size: 13px;
+  color: #666666;
+}
+
+.note{
+  margin-top: 20px;
+}
+
+.note view{
+  font-size: 11px;
+  line-height: 15px;
+  color: #bcbcbc;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.add{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-image: url(http://sulezhi.com/addBtnBg.png);
+  background-size: auto 100%;
+  background-position-y: 0px;
+  padding: 10px 0;
+}
+
+.add text{
+  font-size: 10px;
+  display: block;
+}
+
+.add_button{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 20px;
+  border: none;
+  background-color: #fcee21;
+  margin: 10px auto;
+}
+

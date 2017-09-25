@@ -1,0 +1,111 @@
+<!--index.wxml-->
+ <scroll-view>
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Erick Chen</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>2017-08-15</text>
+        <text class='details'>Max. 5kg</text>
+      </view>
+    </view>
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Erick Chen</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>2017-08-15</text>
+        <text class='details'>Max. 5kg</text>
+      </view>
+    </view>
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Erick Chen</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>2017-08-15</text>
+        <text class='details'>Max. 5kg</text>
+      </view>
+    </view>
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Erick Chen</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>2017-08-15</text>
+        <text class='details'>Max. 5kg</text>
+      </view>
+    </view> 
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Erick Chen</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>2017-08-15</text>
+        <text class='details'>Max. 5kg</text>
+      </view>
+    </view> 
+
+    <view class="list">
+      <view id='list_info_1' class='list_info'>
+        <text class='name'>Erick Chen</text>
+        <button class='contact' bindtap='toContact'>获取联系方式</button>
+      </view>
+
+      <view id='list_info_2' class='list_info'>
+        <text class='details'>BJ-AMS</text>
+        <text class='details'>2017-08-15</text>
+        <text class='details'>Max. 5kg</text>
+      </view>
+    </view>    
+</scroll-view>
+
+<view class='add' bindtap='toAdd'>
+  <button class='add_button'>+</button>
+  <text>我要发布</text>
+</view>
+
+
+<!-- <view class="container"> -->
+    <!-- <view> -->
+    <!-- <navigator class='list_button' id='journey' url="../../main/journey_list/journey_list">行程列表</navigator> -->
+    <!-- <button class='list_button' id='journey' bindtap='bindViewTap'>
+      行程列表
+    </button> 
+     <button class='list_button' id='item'>
+      物件列表
+    </button> -->
+  <!-- </view> -->
+
+  <!-- <view class='add'>
+    <text class='note'>没有找到合适的?点击发布！</text>
+    <button class='add_button'>+</button>
+    <text class='add_text'>我要发布</text>
+  </view>   -->
+   <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>  -->
+<!-- </view> -->

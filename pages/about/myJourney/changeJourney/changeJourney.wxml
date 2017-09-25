@@ -1,0 +1,42 @@
+<!--pages/about/myJourney/changeJourney/changeJourney.wxml-->
+<!--pages/journey list/journey list.wxml-->
+
+<scroll-view class='contactContainer'>
+
+  <view class='subject'>
+    <view class='contactSubject'>
+      行程信息
+    </view>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='行程日期' value='2017年8月15日'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='起点 -- 终点' value='阿姆斯特丹-北京'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='最大承重' value='5kg'></input>
+</view>
+
+  <view class='subject'>
+    <view class='contactSubject'>
+      联系方式
+    </view>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='姓名' value='Erick Chen'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='电话/微信/邮箱等' value='erickchen@gmail.com'></input>
+  </view>
+
+  <view class='subject'>
+    <view class='contactSubject'>
+      备注
+    </view>
+    <textarea placeholder-style='font-size:10px;' class='remark'>6只口红，购物小票均齐全</textarea>
+  </view>
+  
+  <view> 
+    <button class='toMy' bindtap='toMyJourney'>
+      确认更改
+    </button> 
+  </view>
+</scroll-view>
+
+<!-- <view class='top'>
+  <view class='topBarContent' id='journey' bindtap='toAddJourney'>
+    行程
+  </view>
+  <view class='topBarContent' id='item' bindtap='toAddItem'>物件</view>
+</view> -->

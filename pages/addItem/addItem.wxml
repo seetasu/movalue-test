@@ -1,0 +1,42 @@
+<!--pages/journey list/journey list.wxml-->
+
+<scroll-view class='contactContainer'>
+
+  <view class='subject'>
+    <view class='contactSubject'>
+      物件信息
+    </view>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='物件名称'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='起点 -- 终点'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='尺寸'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='重量'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='意向酬劳'></input>
+  </view>
+
+  <view class='subject'>
+    <view class='contactSubject'>
+      联系方式
+    </view>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='姓名'></input>
+    <input placeholder-style='font-size:10px;' class='contactDetail' placeholder='电话/微信/邮箱等'></input>
+  </view>
+
+  <view class='subject'>
+    <view class='contactSubject'>
+      备注
+    </view>
+    <textarea placeholder-style='font-size:10px;' class='someWords'></textarea>
+  </view>
+  
+  <view> 
+    <button class='toMy' bindtap='toMyJourney'>
+      确认发布
+    </button> 
+  </view>
+</scroll-view>
+<view class='top'>
+  <view class='topBarContent' id='journey' bindtap='toAddJourney'>
+    行程
+  </view>
+  <view class='topBarContent' id='item' bindtap='toAddItem'>物件</view>
+</view>

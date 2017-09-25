@@ -1,0 +1,48 @@
+<!--pages/journey list/journey list.wxml-->
+<scroll-view class='contactContainer'>
+  <view class='subject'>
+    <view class='contactSubject'>
+      行程日期
+    </view>
+    <view class='contactDetail'>
+      <text>2017年8月15日</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      起始点
+    </view>
+    <view class='contactDetail'>
+      <text>阿姆斯特丹至北京</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      最大承重
+    </view>
+    <view class='contactDetail'>
+      <text>5kg</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      姓名
+    </view>
+    <view class='contactDetail'>
+      <text>Erick Chen</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      联系方式
+    </view>
+    <view class='contactDetail'>
+      <text>erickchen@gmail.com</text>
+    </view>
+  </view>
+  <view> 
+    <button class='back-button' bindtap='backJourneyList'>
+      返回行程列表
+    </button> 
+  </view>
+</scroll-view>

@@ -1,0 +1,72 @@
+<!--pages/journey list/journey list.wxml-->
+<scroll-view class='contactContainer'>
+  <view class='subject'>
+    <view class='contactSubject'>
+      物件名称
+    </view>
+    <view class='contactDetail'>
+      <text>口红6只</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      起始点
+    </view>
+    <view class='contactDetail'>
+      <text>阿姆斯特丹至北京</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      尺寸
+    </view>
+    <view class='contactDetail'>
+      <text>1.5cm*9cm*15cm</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      重量
+    </view>
+    <view class='contactDetail'>
+      <text>300g</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      意向薪酬
+    </view>
+    <view class='contactDetail'>
+      <text>10欧元</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      姓名
+    </view>
+    <view class='contactDetail'>
+      <text>Emily Li</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      联系方式
+    </view>
+    <view class='contactDetail'>
+      <text>emilyli@gmail.com</text>
+    </view>
+  </view>
+  <view class='subject'>
+    <view class='contactSubject'>
+      备注
+    </view>
+    <view class='contactDetail'>
+      <text>６只口红，购物小票均齐全。</text>
+    </view>
+  </view>
+  <view> 
+    <button class='back-button' bindtap='backItemList'>
+      返回物件列表
+    </button> 
+  </view>
+</scroll-view>

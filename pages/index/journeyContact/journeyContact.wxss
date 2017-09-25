@@ -1,0 +1,44 @@
+/* pages/journey list/journey list.wxss */
+scroll-view{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.subject{
+  margin-bottom: 10px;
+}
+
+.contactSubject{
+  font-size: 13px;
+  color: #999999;
+  line-height: 15px;
+  height: 15px;
+  padding: 2px 10px;
+}
+
+.contactDetail{
+  background-color: #fefde9;
+  line-height: 50px;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+button{
+  font-size: 15px;
+  width: 100%;
+  background-color: #fcee21;
+  margin: 40px auto;
+  border: none;
+}
+
+.back_button{
+  border: none;
+  width: 100%; 
+  margin-bottom: 20px;
+}
+
+.add{
+  margin-top: 40px;
+}

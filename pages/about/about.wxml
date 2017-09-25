@@ -1,0 +1,16 @@
+<!--pages/journey list/journey list.wxml-->
+<scroll-view>
+  <view> 
+    <button class='list_button' id='journey' bindtap='toMyJourney'>
+      我的行程
+    </button> 
+     <button class='list_button' id='item' bindtap='toMyItem'>
+      我的物件
+    </button>
+  </view>
+</scroll-view>
+
+<view class='add'>
+  <button class='add_button' bindtap='toAdd'>+</button>
+  <text>我要发布</text>
+</view>

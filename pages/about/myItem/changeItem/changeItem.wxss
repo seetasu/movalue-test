@@ -1,0 +1,73 @@
+.top{
+  width: 100%;
+  background-color: #fcee21;
+  line-height: 30px;
+  height: 30px;
+  position: fixed;
+  top: 0;
+}
+
+.topBarContent{
+  width: 10%;
+  margin: 0 20%;
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+}
+
+#item{
+  border-bottom: 2px solid black;
+}
+
+scroll-view{
+  padding-top: 30px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.subject{
+  margin-bottom: 20px;
+}
+
+.contactSubject{
+  font-size: 13px;
+  color: #999;
+  line-height: 15px;
+  height: 15px;
+  padding: 5px 10px;
+}
+
+.contactDetail{
+  height: 50px;
+  background-color: #fefde9;
+  line-height: 50px;
+  font-size: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.remark{
+  height: 100px;
+  background-color: #fefde9;
+  line-height: 50px;
+  font-size: 14px;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button{
+  font-size: 15px;
+  width: 100%;
+  background-color: #fff;
+  margin: 40px auto;
+}
+
+.toMy{
+  border: none;
+  background-color: #fcee21;
+  width: 100%; 
+  margin-bottom: 20px;
+}

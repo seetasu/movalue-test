@@ -1,0 +1,36 @@
+<!--pages/journey list/journey list.wxml-->
+<scroll-view>
+  <view class='itemList'> 
+    <view class='details' bindtap='toChangeItem'>
+      <view id='item'>口红</view>
+      <view id='journey'>阿姆斯特丹-北京</view>
+    </view>
+    <switch color='#fcee21' bindchange='switchJourney' />
+  </view>
+
+  <view class='itemList'> 
+    <view class='details' bindtap='toChangeItem'>
+      <view id='item'>月饼</view>
+      <view id='journey'>北京-阿姆斯特丹</view>
+    </view>
+    <switch color='#fcee21' bindchange='switchJourney' />
+  </view>
+
+  <view class='itemList'> 
+    <view class='details' bindtap='toChangeItem'>
+      <view id='item'>奶酪</view>
+      <view id='journey'>斯德哥尔摩-上海</view>
+    </view>
+    <switch color='#fcee21' bindchange='switchJourney' />
+  </view>
+
+  <view class='note'>
+    <view>点击开关更改发布状态。</view>
+    <view>黄色为发布中行程，白色为已关闭行程。</view>
+  </view>
+</scroll-view>
+
+<view class='add'>
+  <button class='add_button' bindtap='toAdd'>+</button>
+  <text>我要发布</text>
+</view>

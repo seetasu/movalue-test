@@ -5,7 +5,7 @@
       我的行程
     </button> 
      <button class='list_button' id='item' bindtap='toMyItem'>
-      我的物件
+      我的物件fsafwaf
     </button>
   </view>
 </scroll-view>

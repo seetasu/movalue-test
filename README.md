@@ -3,6 +3,7 @@
 This repository contains the codebase for a WeChat mini-program application. The app appears to be related to journey and item management, allowing users to add, view, and modify journeys and items.
 
 ## Features
+esfa
 
 - User authentication and profile management
 - Journey list viewing and management
